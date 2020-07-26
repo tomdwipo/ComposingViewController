@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Nh-wk-HCq">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Player Score View Controller-->
+        <scene sceneID="yn8-b6-ZbR">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="2Nh-wk-HCq" customClass="PlayerScoreViewController" customModule="StoryboardComposition" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YPD-W6-VSc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3K3-jT-F3y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Putra" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avN-ga-uk0">
+                                        <rect key="frame" x="12" y="12" width="390" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9.900" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOu-3s-nCg">
+                                        <rect key="frame" x="12" y="44.5" width="390" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="avN-ga-uk0" firstAttribute="leading" secondItem="3K3-jT-F3y" secondAttribute="leading" constant="12" id="2ra-3g-hCE"/>
+                                    <constraint firstItem="oOu-3s-nCg" firstAttribute="top" secondItem="avN-ga-uk0" secondAttribute="bottom" constant="12" id="Fzn-tR-Xn1"/>
+                                    <constraint firstAttribute="height" constant="85" id="Ojg-Ly-lOJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="oOu-3s-nCg" secondAttribute="trailing" constant="12" id="qFI-Zn-4RA"/>
+                                    <constraint firstAttribute="trailing" secondItem="avN-ga-uk0" secondAttribute="trailing" constant="12" id="uWT-PW-VGQ"/>
+                                    <constraint firstItem="oOu-3s-nCg" firstAttribute="leading" secondItem="3K3-jT-F3y" secondAttribute="leading" constant="12" id="wEI-FC-a3A"/>
+                                    <constraint firstItem="avN-ga-uk0" firstAttribute="top" secondItem="3K3-jT-F3y" secondAttribute="top" constant="12" id="xER-VE-6KN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NlF-iQ-wQh" firstAttribute="bottom" secondItem="3K3-jT-F3y" secondAttribute="bottom" id="2X2-Rq-Rxy"/>
+                            <constraint firstItem="3K3-jT-F3y" firstAttribute="top" secondItem="YPD-W6-VSc" secondAttribute="top" id="amI-IO-3TO"/>
+                            <constraint firstItem="NlF-iQ-wQh" firstAttribute="trailing" secondItem="3K3-jT-F3y" secondAttribute="trailing" id="e0E-0l-xri"/>
+                            <constraint firstItem="3K3-jT-F3y" firstAttribute="leading" secondItem="NlF-iQ-wQh" secondAttribute="leading" id="wcO-84-esl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NlF-iQ-wQh"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="85"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="avN-ga-uk0" id="n4k-LJ-s0a"/>
+                        <outlet property="scoreLabel" destination="oOu-3s-nCg" id="Uhg-HI-AOT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5cE-Oy-q9l" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72" y="80"/>
+        </scene>
+    </scenes>
+</document>

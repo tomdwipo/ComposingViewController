@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GMS-az-fob">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PlayerOne-->
+        <scene sceneID="s67-Kq-jYF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayerOne" id="Hdf-87-suS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="te8-Av-Jvb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-40" y="-295"/>
+        </scene>
+        <!--Single Player-->
+        <scene sceneID="g2y-Mi-C4D">
+            <objects>
+                <viewController id="GMS-az-fob" customClass="SinglePlayerViewController" customModule="StoryboardComposition" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xHO-qq-Gmx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DRB-Ql-P2I">
+                                <rect key="frame" x="12" y="56" width="390" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="W7i-lj-5qB"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="Hdf-87-suS" kind="embed" identifier="player" id="LV8-0J-HYh"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="DRB-Ql-P2I" firstAttribute="top" secondItem="psa-o1-rPm" secondAttribute="top" constant="12" id="QMb-cZ-rgj"/>
+                            <constraint firstItem="psa-o1-rPm" firstAttribute="trailing" secondItem="DRB-Ql-P2I" secondAttribute="trailing" constant="12" id="XP9-jY-a5L"/>
+                            <constraint firstItem="DRB-Ql-P2I" firstAttribute="leading" secondItem="psa-o1-rPm" secondAttribute="leading" constant="12" id="lAW-JS-aWX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="psa-o1-rPm"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Single Player" id="fs7-7v-AzD"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UZA-fV-hhU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="87" y="113"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bbr-oj-7kt">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Time Bar View Controller-->
+        <scene sceneID="Oac-pX-ofM">
+            <objects>
+                <viewController id="bbr-oj-7kt" customClass="TimeBarViewController" customModule="StoryboardComposition" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s4h-g4-5Yl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="10"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Pl-3u-GHi">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="10"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="6Pl-3u-GHi" secondAttribute="bottom" id="64k-rP-Rxo"/>
+                            <constraint firstItem="6Pl-3u-GHi" firstAttribute="leading" secondItem="CXe-v5-t93" secondAttribute="leading" id="E3k-ib-tMi"/>
+                            <constraint firstItem="6Pl-3u-GHi" firstAttribute="top" secondItem="s4h-g4-5Yl" secondAttribute="top" id="csH-rl-keA"/>
+                            <constraint firstItem="CXe-v5-t93" firstAttribute="trailing" secondItem="6Pl-3u-GHi" secondAttribute="trailing" id="uVD-xl-AUr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="CXe-v5-t93"/>
+                    </view>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="414" height="10"/>
+                    <connections>
+                        <outlet property="barView" destination="6Pl-3u-GHi" id="Qt3-xG-hfV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AX6-s5-lMv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4" y="92"/>
+        </scene>
+    </scenes>
+</document>
