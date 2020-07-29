@@ -12,7 +12,6 @@
 		CEE8D72F24CDA94200CCB1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8D72D24CDA94200CCB1E8 /* Main.storyboard */; };
 		CEE8D73124CDA94200CCB1E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE8D73024CDA94200CCB1E8 /* Assets.xcassets */; };
 		CEE8D73424CDA94200CCB1E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8D73224CDA94200CCB1E8 /* LaunchScreen.storyboard */; };
-		CEE8D73F24CDA94200CCB1E8 /* StoryboardCompositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8D73E24CDA94200CCB1E8 /* StoryboardCompositionTests.swift */; };
 		CEE8D74A24CDADB300CCB1E8 /* SinglePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8D74924CDADB300CCB1E8 /* SinglePlayerViewController.swift */; };
 		CEE8D74C24CDAFE900CCB1E8 /* MultiplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8D74B24CDAFE900CCB1E8 /* MultiplayerViewController.swift */; };
 		CEE8D74E24CDB0B700CCB1E8 /* PlayerOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8D74D24CDB0B700CCB1E8 /* PlayerOne.storyboard */; };
@@ -26,6 +25,7 @@
 		CEE8D75E24CDBAB300CCB1E8 /* TimeBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8D75D24CDBAB300CCB1E8 /* TimeBarViewController.swift */; };
 		CEE8D76024CDBD1600CCB1E8 /* TimedMultiplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8D75F24CDBD1600CCB1E8 /* TimedMultiplayerViewController.swift */; };
 		CEE8D76224CDBE2A00CCB1E8 /* MultiPlayerScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8D76124CDBE2A00CCB1E8 /* MultiPlayerScoreViewController.swift */; };
+		CEE8D76C24CDD0A800CCB1E8 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8D76B24CDD0A800CCB1E8 /* PlayerScoreViewControllerStoryboardTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 		CEE8D73324CDA94200CCB1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE8D73524CDA94200CCB1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE8D73A24CDA94200CCB1E8 /* StoryboardCompositionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardCompositionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEE8D73E24CDA94200CCB1E8 /* StoryboardCompositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardCompositionTests.swift; sourceTree = "<group>"; };
 		CEE8D74024CDA94200CCB1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE8D74924CDADB300CCB1E8 /* SinglePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerViewController.swift; sourceTree = "<group>"; };
 		CEE8D74B24CDAFE900CCB1E8 /* MultiplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		CEE8D75D24CDBAB300CCB1E8 /* TimeBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBarViewController.swift; sourceTree = "<group>"; };
 		CEE8D75F24CDBD1600CCB1E8 /* TimedMultiplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedMultiplayerViewController.swift; sourceTree = "<group>"; };
 		CEE8D76124CDBE2A00CCB1E8 /* MultiPlayerScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPlayerScoreViewController.swift; sourceTree = "<group>"; };
+		CEE8D76B24CDD0A800CCB1E8 /* PlayerScoreViewControllerStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoreViewControllerStoryboardTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +116,8 @@
 		CEE8D73D24CDA94200CCB1E8 /* StoryboardCompositionTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEE8D73E24CDA94200CCB1E8 /* StoryboardCompositionTests.swift */,
 				CEE8D74024CDA94200CCB1E8 /* Info.plist */,
+				CEE8D76B24CDD0A800CCB1E8 /* PlayerScoreViewControllerStoryboardTests.swift */,
 			);
 			path = StoryboardCompositionTests;
 			sourceTree = "<group>";
@@ -252,6 +252,7 @@
 					};
 					CEE8D73924CDA94200CCB1E8 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 						TestTargetID = CEE8D72324CDA94100CCB1E8;
 					};
 				};
@@ -322,7 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE8D73F24CDA94200CCB1E8 /* StoryboardCompositionTests.swift in Sources */,
+				CEE8D76C24CDD0A800CCB1E8 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,10 +512,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GS47259K73;
 				INFOPLIST_FILE = StoryboardCompositionTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,6 +524,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Tunaiku.StoryboardCompositionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoryboardComposition.app/StoryboardComposition";
@@ -533,10 +536,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GS47259K73;
 				INFOPLIST_FILE = StoryboardCompositionTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

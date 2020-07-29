@@ -55,8 +55,8 @@
                     </view>
                     <size key="freeformSize" width="414" height="85"/>
                     <connections>
-                        <outlet property="nameLabel" destination="5UE-7k-FuK" id="k2d-AD-NZy"/>
-                        <outlet property="scoreLabel" destination="M62-5i-edO" id="kBz-Ym-2L2"/>
+                        <outlet property="nameLabel" destination="5UE-7k-FuK" id="sVB-e4-XPi"/>
+                        <outlet property="scoreLabel" destination="M62-5i-edO" id="NDU-0K-iGm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r4m-92-BIS" sceneMemberID="firstResponder"/>
