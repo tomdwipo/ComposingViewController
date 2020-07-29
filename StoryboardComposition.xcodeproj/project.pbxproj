@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEA55AB024D193C400EAF8DB /* SinglePlayerViewControllerStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA55AAF24D193C400EAF8DB /* SinglePlayerViewControllerStoryboardTests.swift */; };
+		CEA55AB224D196B700EAF8DB /* SinglePlayerViewControllerStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA55AB124D196B700EAF8DB /* SinglePlayerViewControllerStoryboardConfigurator.swift */; };
 		CEE8D72824CDA94100CCB1E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8D72724CDA94100CCB1E8 /* AppDelegate.swift */; };
 		CEE8D72C24CDA94200CCB1E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8D72B24CDA94100CCB1E8 /* ViewController.swift */; };
 		CEE8D72F24CDA94200CCB1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8D72D24CDA94200CCB1E8 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEA55AAF24D193C400EAF8DB /* SinglePlayerViewControllerStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerViewControllerStoryboardTests.swift; sourceTree = "<group>"; };
+		CEA55AB124D196B700EAF8DB /* SinglePlayerViewControllerStoryboardConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerViewControllerStoryboardConfigurator.swift; sourceTree = "<group>"; };
 		CEE8D72424CDA94100CCB1E8 /* StoryboardComposition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardComposition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE8D72724CDA94100CCB1E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE8D72B24CDA94100CCB1E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEA55AB324D19AE500EAF8DB /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				CEA55AB124D196B700EAF8DB /* SinglePlayerViewControllerStoryboardConfigurator.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		CEE8D71B24CDA94100CCB1E8 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,7 @@
 		CEE8D72624CDA94100CCB1E8 /* StoryboardComposition */ = {
 			isa = PBXGroup;
 			children = (
+				CEA55AB324D19AE500EAF8DB /* Configuration */,
 				CEE8D76A24CDCEB900CCB1E8 /* Main */,
 				CEE8D76924CDCE9A00CCB1E8 /* TimedMultiPlayer */,
 				CEE8D76824CDCE8200CCB1E8 /* MultiPlayer */,
@@ -118,6 +131,7 @@
 			children = (
 				CEE8D74024CDA94200CCB1E8 /* Info.plist */,
 				CEE8D76B24CDD0A800CCB1E8 /* PlayerScoreViewControllerStoryboardTests.swift */,
+				CEA55AAF24D193C400EAF8DB /* SinglePlayerViewControllerStoryboardTests.swift */,
 			);
 			path = StoryboardCompositionTests;
 			sourceTree = "<group>";
@@ -311,6 +325,7 @@
 				CEE8D74A24CDADB300CCB1E8 /* SinglePlayerViewController.swift in Sources */,
 				CEE8D76024CDBD1600CCB1E8 /* TimedMultiplayerViewController.swift in Sources */,
 				CEE8D76224CDBE2A00CCB1E8 /* MultiPlayerScoreViewController.swift in Sources */,
+				CEA55AB224D196B700EAF8DB /* SinglePlayerViewControllerStoryboardConfigurator.swift in Sources */,
 				CEE8D74C24CDAFE900CCB1E8 /* MultiplayerViewController.swift in Sources */,
 				CEE8D72C24CDA94200CCB1E8 /* ViewController.swift in Sources */,
 				CEE8D75224CDB23100CCB1E8 /* PlayerScoreViewController.swift in Sources */,
@@ -323,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA55AB024D193C400EAF8DB /* SinglePlayerViewControllerStoryboardTests.swift in Sources */,
 				CEE8D76C24CDD0A800CCB1E8 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

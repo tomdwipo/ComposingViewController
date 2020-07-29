@@ -10,11 +10,5 @@ import Foundation
 import UIKit
 
 final class SinglePlayerViewController: UIViewController {
-    private(set) var player: PlayerScoreViewController?
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "player", let vc = segue.destination as? PlayerScoreViewController {
-            player = vc
-        }
-    }
+   var player: PlayerScoreViewController?
 }

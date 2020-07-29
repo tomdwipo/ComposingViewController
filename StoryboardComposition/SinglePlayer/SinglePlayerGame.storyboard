@@ -13,6 +13,11 @@
             <objects>
                 <viewControllerPlaceholder storyboardName="PlayerOne" id="Hdf-87-suS" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="te8-Av-Jvb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="u4x-RC-ATn" customClass="SinglePlayerViewControllerStoryboardConfigurator" customModule="StoryboardComposition" customModuleProvider="target">
+                    <connections>
+                        <outlet property="player" destination="Hdf-87-suS" id="aUt-tt-Dr0"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="-40" y="-295"/>
         </scene>
